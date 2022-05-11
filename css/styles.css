@@ -64,7 +64,7 @@ a, a:hover {
 }
 
 .dsmovie-card{
-    width: 360px;
+    width: 100%;
 }
 
 .dsmovie-card img{
@@ -94,10 +94,12 @@ a, a:hover {
     color: var(--white);
     font-weight: 700;
     background-color: var(--color-primary);
+
     /* 3 commands align a single element inside a box */
     display: flex; 
     align-items: center;
     justify-content: center;
+
     border-radius: 4px;
     
 }
